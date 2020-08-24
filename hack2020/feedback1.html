@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Live Life More</title>
+</head>
+<style>
+body {
+  font-size: 20px;
+  margin: 0;
+  background-image: url("bg.jpg")
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-image: url("bgg.jpg");
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.home {
+  background-image: url("bg.jpg")
+  color: black;
+}
+
+li a:hover:not(.home) {
+  background-color: #000000 ;
+  color: white;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  background-color: lightpink;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+<ul id="u">
+<li ><a class="home" href="C:\Users\aksha\OneDrive\Pictures\akshadha photos\akshadha\hack2020\mainpage.html">Home</a></li>
+<li><a href="C:\Users\aksha\OneDrive\Pictures\akshadha photos\akshadha\hack2020\Support Animals (2).html">Emotional Support Animals</a></li>
+<li><a href="C:\Users\aksha\OneDrive\Pictures\akshadha photos\akshadha\hack2020\motivational people (2).html">Motivational speakers</a></li>
+<li><a href="C:\Users\aksha\OneDrive\Pictures\akshadha photos\akshadha\hack2020\feedback1.html">Feedback</a></li>
+</ul>
+<div style="margin-left:15%;padding:1px 16px;height:1000px;">
+<body>
+	<h1>Feedback</h1>
+
+<div class="container">
+  <form action="mailto:akshadhabhutani@gmail.com" method="post" enctype="text/plain">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="prof">Gmail</label>
+    <input type="text" id="lname" name="Gmail" placeholder="Your gmail..">
+    </select>
+
+    <label for="subject">Comments</label>
+    <textarea id="subject" name="subject" placeholder="Please mention if you have any comments. PS: Once you click the submit button please click on the send button so that I recieve your comments. " style="height:200px"></textarea>
+    <input type="submit" value="Submit">
+    <!-- <a href="mailto:akshadhabhutani@gmail.com">Submit</a> -->
+  </form>
+</div>
+</body>
+</html>
